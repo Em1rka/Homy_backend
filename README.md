@@ -14,7 +14,6 @@ README.md
 # Требования
 
 - Python 3.13+
-- Node.js 18+ (или новее)
 - Docker (по желанию, для постгре)
 
 
@@ -32,18 +31,3 @@ copy .env.example .env
 # миграции и сервер
 python manage.py migrate
 python manage.py runserver 0.0.0.0:8000
-
-
-
-# Запуск frontend
-
-cd frontend
-npm run dev
-
-# создать .env из примера
-copy .env.example .env
-
-npm run dev
-# http://localhost:5173
-
-Да, оба запускаются
